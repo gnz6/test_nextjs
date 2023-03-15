@@ -1,4 +1,9 @@
-.menuContainer a{
+.menuContainer p{
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.menuContainer div{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

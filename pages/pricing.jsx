@@ -1,10 +1,10 @@
 import { Layout } from '@/components/layouts/Layout'
 
-export default function Home() {
+export default function Pricing() {
   return (
     <>
      <Layout>
-      <h1 className='title'> Home </h1>
+      <h1> Pricing </h1>
      </Layout>
     </>
   )

@@ -12,11 +12,11 @@ export const ActiveLink = ({text, href}) => {
 
 
   return (
-    <a  style={ router.asPath === href ?  style : null }>
+    <p  style={ router.asPath === href ?  style : null }>
 
     <Link href={href}>
         {text} 
     </Link>
-    </a>
+    </p>
   )
 }
